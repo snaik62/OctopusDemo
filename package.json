@@ -1,0 +1,25 @@
+{
+  "name": "ramdomquotes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node source/server/index.js",
+    "test": "jest",
+    "build": "echo 'no build necessary'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.4.1",
+    "express": "^4.16.3",
+    "jquery": "^3.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^10.0.3",
+    "del": "^3.0.0",
+    "gulp": "^4.0.2",
+    "jest": "^24.9.0",
+    "run-sequence": "^2.2.1"
+  }
+}
